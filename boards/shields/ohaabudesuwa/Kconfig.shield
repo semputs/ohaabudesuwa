@@ -4,8 +4,3 @@ config SHIELD_OHAABUDESUWA_LEFT
 config SHIELD_OHAABUDESUWA_RIGHT
     def_bool $(shields_list_contains,ohaabudesuwa_right)
 
-<<<<<<< HEAD
-    def_bool $(shields_list_contains,ohaabudesuwa_right)
-=======
-    def_bool $(shields_list_contains, ohaabudesuwa_right)
->>>>>>> 0f30026ff518f7a9ff572ecdea8251219d676e46
