@@ -1,5 +1,5 @@
 config SHIELD_OHAABUDESUWA_LEFT
-    def_bool $(shields_list_contains, ohaabudesuwa_left)
+    def_bool $(shields_list_contains,ohaabudesuwa_left)
 
 config SHIELD_OHAABUDESUWA_RIGHT
-    def_bool $(shields_list_contains, ohaabudesuwa_right)
+    def_bool $(shields_list_contains,ohaabudesuwa_right)
