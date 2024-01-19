@@ -17,6 +17,10 @@
 #define ADJUST  3-misc-rgb-bt
 #define GAMING  4-extra
 
+&led_strip {
+    chain-length = <16>; /* LED length, 8 per each side */
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
