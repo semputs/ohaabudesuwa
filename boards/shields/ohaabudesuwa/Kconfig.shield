@@ -3,4 +3,3 @@ config SHIELD_OHAABUDESUWA_LEFT
 
 config SHIELD_OHAABUDESUWA_RIGHT
     def_bool $(shields_list_contains,ohaabudesuwa_right)
-
