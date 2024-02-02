@@ -122,8 +122,8 @@
 //                                                             &trans      &trans       &tog 3        &trans      &trans
 // mouse keys here: https://github.com/ftc/zmk/blob/mouse-ftc/docs/docs/behaviors/mouse-emulation.md
                         bindings = <
-&none            &none           &none           &kp LC(LS(ESC))  &none  &tog 4   	        &none  &none      &none    &none        &none  &bt BT_CLR
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &none  &kp C_VOL_UP       &none  &none    &none  &none  &none  &none
+&none            &none           &none           &kp LC(LS(ESC))  &none  &tog 4   	        &none  &mkp MB1         &mmv MOVE_UP    &mkp MB2        &none  &bt BT_CLR
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &none  &kp C_VOL_UP       &none  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT &none  &none
 &rgb_ug RGB_EFF  &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_SPD  &none  &kp C_VOL_DN       &none  &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3 &bt BT_SEL 4
                         &trans &trans &none  &trans  &trans
                         >;
