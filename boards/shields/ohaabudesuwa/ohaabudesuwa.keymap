@@ -18,11 +18,6 @@
 #define ADJUST  3-misc-rgb-bt
 #define GAMING  4-extra
 
-/* &led_strip {
-    chain-length = <16>; /* LED length, 8 per each side */
-};
-*/
-
 &spi3 {
     compatible = "nordic,nrf-spim";
     status = "okay";
